@@ -1,11 +1,9 @@
-
-
 This repository provides a design automation app for wireless power coils.
 
-The app is written in Matlab App Designer and the algorithm is based on k-oriented design methodology.
+The app is written in Matlab App Designer.
 
 Double click Main_app to run the app.
 
 To read and edit the app, open Main_app from Matlab -> APPS -> Design App. 
 
-The app is under development and takes few minutes to run.
+The app is under development.
