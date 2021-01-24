@@ -10,7 +10,7 @@ s=1i*w;
 %   +   -->                   |     -->       |    -->    | +
 %       Iin                   -     I2        |    Iout   |
 %                            | |             ---          <
-%  Vin                   Z12 | |          CL ---       RL < Vout
+%  Vin                   aZ12 | |          CL ---       RL < Vout
 %                             -               |           |
 %   -                         |               |           | -
 %    ------------------------------------------------------
@@ -24,7 +24,6 @@ eta_max = 0;
 CL_max  = 0;
 CT_max  = 0;
 
-#CT = abs(1/(w*imag(z11)));
 for CT = CT_start:CT_inc:CT_end
 for CL = CL_start:CL_inc:CL_end
     
@@ -49,4 +48,4 @@ for CL = CL_start:CL_inc:CL_end
   end
 end
 end
-endfunction
+end
